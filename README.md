@@ -5,14 +5,28 @@
 ## 🚀 Vision
 In critical medical emergencies, every second counts. **AegisAI** is a high-performance, intelligent emergency health ecosystem designed to bridge the gap between symptom onset and professional medical intervention. By leveraging Multimodal AI, AegisAI provides instant risk assessment, life-saving first-aid guidance, and precise navigation to healthcare facilities through a premium, low-latency interface.
 
-## ✨ Core Features
-- **🧠 AI Symptom Analyzer**: Multimodal NLP engine (Text/Voice) for high-accuracy condition prediction and risk triage.
-- **👁️ Computer Vision Injury Detection**: Instant wound severity analysis using advanced image classification.
-- **🚑 Tactical First-Aid**: Real-time, step-by-step visual and spoken guidance for critical scenarios (Strokes, Choking, etc.).
-- **📍 Smart Hospital & Pharmacy Locator**: Geolocation-based routing with real-time distance calculations and facility statuses.
-- **🫀 3D Bio-Telemetry**: Interactive Three.js visualization for stable rhythm monitoring and health telemetry.
-- **📜 Medical Command Center**: Unified dashboard summarizing clinical data, recommended actions, and emergency logs.
-- **🔔 SOS Broadcast**: One-tap emergency notification system with automated telemetry and live location sharing.
+## ✨ Core Features (Hackathon Requirements)
+
+### 1. 🧠 Machine Learning Disease Prediction
+- **AI Symptom Analyzer**: Multimodal NLP engine leveraging Large Language Models for high-accuracy condition prediction and risk triage.
+- **Computer Vision Injury Detection**: Instant wound severity analysis using advanced CNN-based image classification.
+- **Risk Assessment Engine**: Scikit-learn based RandomForest model for categorical risk prediction (Critical, High, Moderate, Low).
+
+### 2. 📊 Dataset Preprocessing & Training
+- **Automated Training Pipeline**: Includes `backend/scripts/train_risk_model.py` for synthetic dataset generation and model training.
+- **Data Preprocessing**: Scripts to handle medical terminology mapping and feature vectorization for the Risk Engine.
+
+### 3. 📜 Prediction Interface & Dashboard
+- **Medical Command Center**: A premium, unified dashboard summarizing clinical data, prediction results, and recommended first-aid actions.
+- **Interactive Telemetry**: Real-time 3D Bio-Telemetry visualization (Three.js) for monitoring patient state during analysis.
+
+### 4. ✅ Performance & Evaluation Metrics
+- **System Audit Module**: Integrated `backend/scripts/audit_system.py` to evaluate model accuracy across multiple diagnostic scenarios.
+- **Real-time Validation**: Logic-based cross-verification between ML predictions and clinical symptom extractions.
+
+## 🚑 Additional Emergency Modules
+- **📍 Smart Facility Locator**: Geolocation-based routing to hospitals and pharmacies.
+- **🔔 SOS Broadcast**: One-tap emergency notification system with automated location sharing.
 
 ## 🏗️ System Architecture
 
