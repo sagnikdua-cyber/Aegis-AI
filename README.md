@@ -34,7 +34,7 @@ graph TD
 - **Backend**: **FastAPI**, Python, Pydantic, MongoDB.
 - **AI/ML**: HuggingFace Transformers, PyTorch, Scikit-learn, CNN-based Image Analysis.
 - **Deployment**: 
-  - **Frontend**: [https://aegis-ai-frontend.onrender.com](https://aegis-ai-frontend.onrender.com) (Pending final setup)
+  - **Frontend**: [https://aegis-ai-1.onrender.com](https://aegis-ai-1.onrender.com) (Live)
   - **Backend**: [https://aegis-ai-b91n.onrender.com](https://aegis-ai-b91n.onrender.com) (Live)
 
 ## 🏁 Technical Setup
@@ -68,4 +68,4 @@ AegisAI/
 ```
 
 ---
-*Developed for AXIORA 2026. Built to save lives through Intelligent Health Telemetry.*
+*Developed for Hackathon. Built to save lives through Intelligent Health Telemetry.*
