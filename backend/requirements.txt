@@ -1,0 +1,21 @@
+fastapi
+uvicorn
+gunicorn
+pymongo
+motor
+pydantic
+python-multipart
+axios
+# AI/ML
+python-dotenv
+httpx
+torch
+torchvision
+Pillow
+pandas
+scikit-learn
+joblib
+numpy
+pillow
+python-dotenv
+google-generativeai
