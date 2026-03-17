@@ -33,7 +33,9 @@ graph TD
 - **Frontend**: Next.js 14, Tailwind CSS, **GSAP**, **Framer Motion**, **Three.js** (React Three Fiber), Web Speech API.
 - **Backend**: **FastAPI**, Python, Pydantic, MongoDB.
 - **AI/ML**: HuggingFace Transformers, PyTorch, Scikit-learn, CNN-based Image Analysis.
-- **Deployment**: Vercel (Frontend), Render/Local (Backend).
+- **Deployment**: 
+  - **Frontend**: [https://aegis-ai-frontend.onrender.com](https://aegis-ai-frontend.onrender.com) (Pending final setup)
+  - **Backend**: [https://aegis-ai-b91n.onrender.com](https://aegis-ai-b91n.onrender.com) (Live)
 
 ## 🏁 Technical Setup
 
